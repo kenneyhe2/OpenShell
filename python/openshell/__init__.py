@@ -23,7 +23,7 @@ try:
 
     __version__ = version("openshell")
 except Exception:
-    __version__ = "0.0.0"
+    __version__ = "0.0.99-fix"
 
 __all__ = [
     "ClusterInferenceConfig",

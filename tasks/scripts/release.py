@@ -45,7 +45,7 @@ def _compute_versions() -> Versions:
         # EXAMPLE: if the last tag was 0.1.0, then the next version will be 0.1.1-dev.0
         version_scheme="guess-next-dev",
         root=str(root),
-        fallback_version="0.0.0",
+        fallback_version="0.0.99-fix",
     )
 
     # Convert PEP 440 to a SemVer-ish string for Cargo:
